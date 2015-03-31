@@ -15,7 +15,7 @@ See the testPLayersWordExists method for a recursive backtracking algorithm that
 See the findBoggleWord method for a recursive algorithm that traverses the entire boggle board and performs an exhaustive search to find all undiscovered words.
 
 
-Human Player's word meets the following conditions: 
+Human Player's word and Computer's word meet the following conditions: 
 
 1. It is at least four letters long.
 2. It is contained in the English lexicon.
