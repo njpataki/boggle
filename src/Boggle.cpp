@@ -2,8 +2,6 @@
  * File: Boggle.cpp
  * ----------------
  * Name: Nicholas Josef Pataki
- * Section: Kerem
- * This file is the main starter file for Assignment #4, Boggle.
  */
 
 #include <iostream>
