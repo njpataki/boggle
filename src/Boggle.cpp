@@ -19,6 +19,8 @@ using namespace std;
 const int BOGGLE_WINDOW_WIDTH = 650;
 const int BOGGLE_WINDOW_HEIGHT = 350;
 const int MINIMUM_WORD_LENGTH = 4;
+const int STANDARD = 4;
+const int BIG_BOGGLE = 5;
 
 const string STANDARD_CUBES[16]  = {
     "AAEEGN", "ABBJOO", "ACHOPS", "AFFKPS",
@@ -176,7 +178,7 @@ int chooseBoardSize() {
     cout << "You can choose standard Boggle (4x4 grid) or Big Boggle (5x5)." << endl;
     cout << endl;
     cout << "Would you like Big Boggle? ";
-    if(getYesOrNo()) { return 5;} else { return 4;}
+    if(getYesOrNo()) { return BIG_BOGGLE;} else { return STANDARD;}
 }
 
 /*
