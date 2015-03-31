@@ -10,9 +10,11 @@ The program runs a game of boggle where human and computer meet head-to-head! It
 The main focus of the assignemnt is on designing and implementing recursive algorithms. At the heart of the program 
 are two recursive functions that find words on the board, one for the human player and another for the computer. 
 
-See the testPLayersWordExists method for a recursive tracking algorithm that "fails fast": as soon as it can be established a word can't be started from a position on the board the search moves to the enxt position. This method is "wrapped"
+See the testPLayersWordExists method for a recursive backtracking algorithm that "fails fast": as soon as it can be established a word can't be started from a position on the board the search moves to the next position. This method is "wrapped" in the 
+evaluatePlayersWord method.
 
-See the
+See the findBoggleWord method for a recursive algorithm that traverses the entire boggle board and performs an exhaustive search to find all undiscovered words.
+
 
 Human Player's word meets the following conditions: 
 
@@ -21,7 +23,7 @@ Human Player's word meets the following conditions:
 3. It has not already been included in the player’s word list (even if there is an alternate path on the board to form the same word, the word is counted at most once).
 4. It can be formed on the board (i.e., it is composed of adjoining letters and each cube is used at most once).
 
- 
+
 
 
 
